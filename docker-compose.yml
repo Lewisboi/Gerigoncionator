@@ -1,0 +1,12 @@
+services:
+  gerigoncionator:
+    build: ./gerigoncionator
+    ports:
+      - "8000:8000"
+
+  front:
+    build: ./front
+    ports:
+      - "3000:5173"
+    depends_on:
+      - gerigoncionator

@@ -1,0 +1,4 @@
+silabeador
+fastapi
+uvicorn
+pydantic

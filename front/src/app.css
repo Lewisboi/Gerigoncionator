@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body {
+  font-family: 'Comic Neue', cursive; /* Updated to Comic Neue for a slight variation */
+  background-color: #ff00ff; /* Bright pink background */
+  color: #00ff00; /* Neon green text */
+  background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/63f92507b8323303b9d4d70f_Y2K.png'); /* Example tiled background */
+}
+
+main {
+  border: 5px dashed red;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 89, 216, 0.5); /* Semi-transparent blue */
+}
+
+h1 {
+  color: rgb(41, 219, 255);
+  text-shadow: 2px 2px 0 #ff0000; /* Red shadow for contrast */
+  font-size: 50px;
+}
+
+.card {
+  background-color: #00ffff; /* Cyan */
+  border: 3px groove purple; /* Grooved border */
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: 'Comic Neue', cursive;
+  background-color: lime;
+  color: blue;
+  border: 2px outset orange;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 2%;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+@keyframes buttonAnimation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
